@@ -8,13 +8,13 @@ export default function Nuestro() {
      className="w-full bg-violet_light text-white">
   <div className="mx-auto w-full px-6 py-14 flex flex-col gap-8 md:w-10/12 md:py-20 md:gap-10">
     <div className="text-left md:text-justify">
-      <h3 className="text-2xl font-bold tracking-wide md:text-4xl">
+      <h3 className="text-2xl font-bold tracking-wide md:text-3xl">
         NUESTRO CENTRO
       </h3>
     </div>
 
     <div>
-      <div className="flex flex-col gap-5 text-left text-base leading-relaxed md:gap-8 md:text-3xl md:text-justify md:leading-normal">
+      <div className="flex flex-col gap-5 text-left text-base leading-relaxed md:gap-8 md:text-xl md:text-justify md:leading-normal">
         <p>
           <span className="font-bold">Fundación Oncológica Mendoza </span>
           cuenta con un sector exclusivo e independiente, de aproximadamente 150 m²,

@@ -106,7 +106,7 @@ function toWhatsAppLink(phone: string, text?: string) {
           inline-block rounded-full bg-violet_light
           mt-6 px-6 py-3 text-lg font-semibold uppercase tracking-wide text-white
           transition hover:bg-[#c79ae3]
-          md:mt-10 md:px-8 md:py-6 md:text-4xl
+          md:mt-10 md:px-8 md:py-6 md:text-2xl
         "
       >
         Solicitar turno

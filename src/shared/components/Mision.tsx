@@ -33,7 +33,7 @@ export default function Mision() {
           alt="icon_mision"
         />
 
-        <h3 className="w-full text-base md:ml-5 md:w-3/4 md:text-2xl md:text-justify">
+        <h3 className="w-full text-base md:ml-5 md:w-3/4 md:text-xl md:text-justify">
           Nuestra misión es ser una entidad constituida en Mendoza de referencia
           en el área de la oncología clínica.
         </h3>
@@ -52,7 +52,7 @@ export default function Mision() {
           alt="icon_vision"
         />
 
-        <h3 className="w-full text-base md:ml-5 md:w-3/4 md:text-2xl md:text-justify">
+        <h3 className="w-full text-base md:ml-5 md:w-3/4 md:text-xl md:text-justify">
           Nuestra visión es brindar un servicio con los estándares de calidad que
           la oncología y su avance necesitan, actualizando permanentemente el
           conocimiento de nuestros médicos, mejorando nuestros procesos de

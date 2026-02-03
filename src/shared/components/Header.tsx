@@ -30,7 +30,7 @@ export function Header() {
                 : "opacity-0 -translate-y-5 pointer-events-none lg:pointer-events-auto"
             }`}
         >
-          <ul className="flex flex-col lg:flex-row justify-center items-center gap-4 lg:gap-0 py-4 lg:py-0 bg-background-secondary/95 lg:bg-transparent rounded-xl shadow-lg lg:shadow-none mx-4 lg:mx-0">
+          <ul className="flex flex-col lg:flex-row justify-between px-32 w-full mx-auto items-center gap-4 lg:gap-0 py-4 lg:py-0 bg-background-secondary/95 lg:bg-transparent rounded-xl shadow-lg lg:shadow-none lg:mx-0">
             {[
               { to: "quienes", label: "¿Quiénes somos?" },
               { to: "mision", label: "Misión y visión" },
@@ -48,9 +48,9 @@ export function Header() {
                   to={item.to}
                   smooth={true}
                   duration={600}
-                  offset={-80}
+                  offset={-200}
                   onClick={() => setMenuOpen(false)}
-                  className="transition-all hover:text-primary-light text-primary xs:text-base md:text-2xl text-lg font-bold font-orbit tracking-wider cursor-pointer"
+                  className="transition-all hover:text-primary-light text-primary xs:text-base md:text-xl text-lg font-bold font-orbit tracking-wider cursor-pointer"
                 >
                   {item.label}
                 </LinkScroll>

@@ -21,6 +21,21 @@ export default function App() {
         
         <Hero/>
 
+<div className="bg-crema">
+        <video
+  className="w-9/12 rounded-xl shadow-lg pt-5 mx-auto"
+  controls
+  preload="metadata"
+  playsInline
+>
+  <source
+    src="https://res.cloudinary.com/dwxwejuvu/video/upload/f_auto,q_auto,w_1280/video/video_web_quienes_somos_abajo_de_quienes_somos_arriba_de_misi%C3%B3n_jhpdlx.mp4"
+    type="video/mp4"
+    />
+</video>
+    </div>
+
+
         <div>
           <Quienes/>
         </div>
@@ -59,6 +74,21 @@ export default function App() {
           <Profesionales/>
         </div>
 
+<div className="bg-crema">
+        <video
+  className="w-9/12 rounded-xl shadow-lg pb-8 mx-auto"
+  controls
+  preload="metadata"
+  playsInline
+>
+  <source
+    src="https://res.cloudinary.com/dwxwejuvu/video/upload/f_auto,q_auto,w_1280/video/reels_fom_web_arriba_de_nuestro_centro_thzynn.mp4"
+    type="video/mp4"
+    />
+</video>
+    </div>
+
+
         <div>
           <Nuestro/>
         </div>
@@ -74,7 +104,7 @@ export default function App() {
             bg-no-repeat
             md:h-screen
             w-screen
-            bg-crema md:mt-28 mt-10
+            bg-crema pt-10
           "
         />
 
@@ -97,7 +127,7 @@ export default function App() {
     </div>
 
     {/* INFO */}
-    <div className="flex w-full flex-col justify-center gap-4 text-base text-violet_darck md:ml-auto md:w-1/3 md:gap-5 md:text-3xl">
+    <div className="flex w-full flex-col justify-center gap-4 text-base text-violet_darck md:ml-auto md:w-1/3 md:gap-5 md:text-2xl">
       <div>
         <h4 className="font-bold">Ubicación:</h4>
         <p>San Juan 227 – Ciudad – Mendoza</p>
