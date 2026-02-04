@@ -29,6 +29,16 @@ export default {
         "crema":"#f3eeea",
         "violet_transp":"#d1addb"
       },
+      keyframes: {
+    obrasLoop: {
+      "0%": { transform: "translateX(0)" },
+      "50%": { transform: "translateX(-100)" },
+      "100%": { transform: "translateX(0%)" },
+    },
+  },
+  animation: {
+    "obras-loop": "obrasLoop 25s linear infinite",
+  },
     },
   },
   plugins: [],

@@ -23,14 +23,14 @@ export function Header() {
             {menuOpen ? <HiOutlineX size={30} /> : <HiOutlineMenu size={30} />}
           </button>
        <nav
-          className={`absolute lg:static left-0 md:ml-16 ml-0 transition-all duration-300 w-8/12 ease-in-out lg:opacity-100 lg:translate-y-0 z-[55]
+          className={`absolute lg:static left-0 md:ml-16 ml-0  transition-all duration-300 w-8/12 ease-in-out lg:opacity-100 lg:translate-y-0 z-[55]
             ${
               menuOpen
                 ? "opacity-100 translate-y-0"
                 : "opacity-0 -translate-y-5 pointer-events-none lg:pointer-events-auto"
             }`}
         >
-          <ul className="flex flex-col lg:flex-row justify-between px-32 w-full mx-auto items-center gap-4 lg:gap-0 py-4 lg:py-0 bg-background-secondary/95 lg:bg-transparent rounded-xl shadow-lg lg:shadow-none lg:mx-0">
+          <ul className="flex flex-col lg:flex-row  justify-between px-32 w-full mx-auto items-center gap-4 lg:gap-0 py-4 lg:py-0 bg-background-secondary/95 lg:bg-transparent rounded-xl shadow-lg lg:shadow-none lg:mx-0">
             {[
               { to: "quienes", label: "¿Quiénes somos?" },
               { to: "mision", label: "Misión y visión" },

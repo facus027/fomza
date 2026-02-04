@@ -94,20 +94,44 @@ export default function App() {
         </div>
 
         <section
-          id="obras"
-          className="
-            relative
-            min-h-[60vh]
-            bg-[url('/fondos/fondos-07.png')]
-            bg-cover
-            bg-center
-            bg-no-repeat
-            md:h-screen
-            md:w-screen
-            
-            bg-crema pt-10
-          "
-        />
+  id="obras"
+  className="
+    relative
+    w-full
+    min-h-[70vh]
+    bg-crema
+    pt-10
+    overflow-hidden
+
+    md:min-h-0
+    md:h-screen
+  "
+>
+  {/* MOBILE: loop horizontal */}
+  <div className="absolute inset-0 md:hidden -mx-16">
+    <div className="flex h-full w-full animate-obras-loop">
+      <img
+        src="/fondos/fondos-07.png"
+        alt="Obras sociales"
+        className="bg-cover w-full  shrink-0"
+      />
+     
+    </div>
+  </div>
+
+  {/* DESKTOP: estático como antes */}
+  <div
+    className="
+      hidden md:block
+      absolute inset-0
+      bg-[url('/fondos/fondos-07.png')]
+      bg-cover
+      bg-center
+      bg-no-repeat
+    "
+  />
+</section>
+
 
         <div>
           <Turnos/>
