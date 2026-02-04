@@ -29,16 +29,16 @@ function toWhatsAppLink(phone: string, text?: string) {
     className="
       mx-auto w-11/12 rounded-2xl bg-violet_darck
       py-12 px-6 text-center text-white shadow-lg
-      md:w-4/5 md:py-20 md:px-10
+      md:w-10/12 md:py-20 md:px- font-gotham
     "
   >
     {/* Título */}
-    <h2 className="text-2xl font-bold uppercase tracking-widest md:text-4xl">
+    <h2 className="text-2xl font-bold font-gotham italic uppercase tracking-widest md:text-4xl">
       Turnos WhatsApp
     </h2>
 
     {/* Separador */}
-    <div className="mx-auto my-4 h-px w-4/5 bg-white/70 md:w-3/5" />
+    <div className="mx-auto my-7 h-px w-4/5 bg-white/70 md:w-3/5" />
 
     {/* Horarios */}
     <p className="text-sm font-light md:text-3xl">
@@ -101,7 +101,7 @@ function toWhatsAppLink(phone: string, text?: string) {
     {/* Botón */}
     <div className="mt-8 md:mt-8">
       <a
-        href="#"
+        href={toWhatsAppLink("2615256038", "Hola! Quiero solicitar un turno.")}
         className="
           inline-block rounded-full bg-violet_light
           mt-6 px-6 py-3 text-lg font-semibold uppercase tracking-wide text-white

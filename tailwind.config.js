@@ -21,7 +21,7 @@ export default {
     },
     extend: {
        fontFamily: {
-        gotham: ['"Gotham Rounded"', "system-ui", "sans-serif"],
+        gotham: ['"Gotham Rounded"',  "sans-serif"],
       },
       colors:{
         "violet_light":"#b57edc",

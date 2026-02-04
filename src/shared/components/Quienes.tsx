@@ -8,10 +8,10 @@ export default function Quienes() {
     className="bg-crema py-10 md:py-28 px-30">
         <div className="md:w-10/12 flex md:flex-row flex-col w-full justify-center items-center mx-auto gap-5">
             <div className="flex flex-col w-10/12 md:w-3/5 gap-10 text-justify">
-                <h3 className="text-2xl md:text-4xl text-violet_darck font-bold">
+                <h3 className="text-2xl md:text-4xl text-violet_darck font-bold font-gotham">
                     ¿QUIENES SOMOS?
                 </h3>
-                <div className="flex flex-col text-lg md:text-2xl gap-5 text-violet_darck ">
+                <div className="flex flex-col text-lg md:text-2xl gap-5 text-violet_darck font-gotham font-normal text-justify">
                     <p>
                     <span className="font-bold">Fundación Oncológica Mendoza </span>
                     nace a partir de una profunda
@@ -21,7 +21,7 @@ export default function Quienes() {
                     surge este proyecto.
                 </p>
                 <p>
-                    <span className="font-bold">Contamos con un equipo interdisciplinario de profesionales,</span><br />
+                    <span className="font-bold italic">Contamos con un equipo interdisciplinario de profesionales,</span><br />
                     médicos oncólogos, paliativistas, cirujanos, psicólogos, nutricionistas
                     y otros especialistas- decidió dar forma a un centro médico pensado 
                     exclusivamente para el paciente oncológico y su familia.
@@ -37,7 +37,7 @@ export default function Quienes() {
             </div>
             <div className="flex-1">
                 <img 
-                    className="h-full w-auto p-2"
+                    className="h-full md:w-auto w-11/12 p-2 mx-auto"
                     src="/fondos/fondos-02.png" 
                     alt="quienes_somos" 
                 />

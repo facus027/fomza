@@ -21,9 +21,9 @@ export default function App() {
         
         <Hero/>
 
-<div className="bg-crema">
+<div className="bg-crema fonts-gotham">
         <video
-  className="w-9/12 rounded-xl shadow-lg pt-5 mx-auto"
+  className="w-9/12 rounded-xl shadow-lg pt-5 mx-auto md:pt-16"
   controls
   preload="metadata"
   playsInline
@@ -59,11 +59,11 @@ export default function App() {
       relative z-10 text-white text-center
       px-6 pt-24
       text-2xl
-      md:text-4xl md:mx-44 md:pt-48 md:px-0
+      md:text-4xl md:mx-44 md:pt-48 md:px-0 
     "
   >
-    <h1 className="font-bold">PROFESIONALES</h1>
-    <p className="mt-2 w-full text-base md:text-4xl">
+    <h1 className="font-bold italic font-gotham">PROFESIONALES</h1>
+    <p className="mt-2 w-full text-base font-gotham md:text-4xl">
       Conozca a nuestros profesionales de la salud
     </p>
   </div>
@@ -103,7 +103,8 @@ export default function App() {
             bg-center
             bg-no-repeat
             md:h-screen
-            w-screen
+            md:w-screen
+            
             bg-crema pt-10
           "
         />
@@ -127,7 +128,7 @@ export default function App() {
     </div>
 
     {/* INFO */}
-    <div className="flex w-full flex-col justify-center gap-4 text-base text-violet_darck md:ml-auto md:w-1/3 md:gap-5 md:text-2xl">
+    <div className="flex w-full flex-col justify-center gap-4 text-base font-gotham text-violet_darck md:ml-auto md:w-1/3 md:gap-5 md:text-2xl">
       <div>
         <h4 className="font-bold">Ubicación:</h4>
         <p>San Juan 227 – Ciudad – Mendoza</p>
@@ -164,12 +165,33 @@ export default function App() {
 </div>
 
 {/* LOGO FINAL */}
-<div className="bg-violet_light">
+<div className="relative bg-violet_light pb-12">
+  {/* Logo principal */}
   <img
-    className="mx-auto h-20 w-auto py-6 md:h-36 md:py-8"
+    className="mx-auto h-20 w-auto py-3 md:h-20 md:py-1"
     src="/fondos/fondos-08.png"
     alt="logo_fom"
   />
+
+  {/* Logo creador */}
+
+   <a href="https://linktr.ee/viralmk?fbclid=PAZXh0bgNhZW0CMTEAAaaDt0GRMewRaznFlWYwXoXmAf8DphiWiZ3Cdi0Kn-YCgwNpNZ7Lz0743UM_aem_Vzxh6uCC7RpCbm0sA08zgA"
+       target="_blank">
+   <img
+    className="
+    absolute
+    right-4
+    z-10
+    h-5
+    w-auto
+    opacity-80
+    md:h-8
+    "
+    src="/Marca viral-03.png"
+    alt="logo_viral"
+    />
+    </a>
+ 
 </div>
 
 

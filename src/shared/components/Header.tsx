@@ -23,7 +23,7 @@ export function Header() {
             {menuOpen ? <HiOutlineX size={30} /> : <HiOutlineMenu size={30} />}
           </button>
        <nav
-          className={`absolute lg:static left-0 mx-auto transition-all duration-300 w-full ease-in-out lg:opacity-100 lg:translate-y-0 z-[55]
+          className={`absolute lg:static left-0 md:ml-16 ml-0 transition-all duration-300 w-8/12 ease-in-out lg:opacity-100 lg:translate-y-0 z-[55]
             ${
               menuOpen
                 ? "opacity-100 translate-y-0"
@@ -41,7 +41,7 @@ export function Header() {
             ].map((item) => (
               <li
                 key={item.to}
-                className="md:mx-5 xs:mx-3 mx-2 mb-1 md:mb-0 whitespace-nowrap"
+                className="md:mx-5 xs:mx-3 mx-2 mb-1 md:mb-0 whitespace-nowrap "
               >
               
                   <LinkScroll
@@ -50,7 +50,7 @@ export function Header() {
                   duration={600}
                   offset={-200}
                   onClick={() => setMenuOpen(false)}
-                  className="transition-all hover:text-primary-light text-primary xs:text-base md:text-xl text-lg font-bold font-orbit tracking-wider cursor-pointer"
+                  className="transition-all font-gotham uppercase font-medium text-primary xs:text-base md:text-xl text-lg tracking-wider cursor-pointer"
                 >
                   {item.label}
                 </LinkScroll>
