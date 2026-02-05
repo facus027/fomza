@@ -58,7 +58,7 @@ function toWhatsAppLink(phone: string, text?: string) {
           Consultorios:
         </h3>
 
-        <div className="flex flex-wrap flex-row items-center justify-center gap-2">
+        <div className="flex flex-wrap flex-row items-center justify-center gap-2 text-sm lg:txt-base xl:text-xl">
           <a
             href={toWhatsAppLink("2617206340", "Hola! Quiero solicitar un turno.")}
             target="_blank"
@@ -82,7 +82,7 @@ function toWhatsAppLink(phone: string, text?: string) {
       </div>
 
       {/* Quimioterapias */}
-      <div className="flex flex-col items-center gap-3 xl:flex-row md:gap-2 text-base">
+      <div className="flex flex-col items-center gap-3 xl:flex-row md:gap-2 text-base lg:txt-base xl:text-xl">
         <h3 className="font-gotham font-semibold text-lg italic lg:text-2xl xl:text-3xl">
           Quimioterapias:
         </h3>

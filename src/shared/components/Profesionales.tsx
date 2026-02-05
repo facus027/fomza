@@ -27,7 +27,7 @@ export default function Profesionales() {
         <div className="text-violet_darck ml-0 md:-ml-10">
           <h4 className="font-semibold text-lg md:text-3xl">Director Médico</h4>
           <p className="text-base xl:text-xl font-gotham font-semilight">
-            Dr. Emiliano Zani
+            • Dr. Emiliano Zani
           </p>
         </div>
       </div>
@@ -36,8 +36,8 @@ export default function Profesionales() {
         <div className="text-violet_darck ml-0 md:-ml-10 font-gotham">
           <h4 className="font-semibold text-lg md:text-3xl"> Médicos Oncólogos</h4>
           <p className="text-base xl:text-xl font-gotham font-semilight">
-            Avendaño, María Cecilia • Díaz Cardillo, Eliana <br />
-            Zani, Emiliano • Rodríguez Zanini, Hernán Eduardo
+            • Avendaño, María Cecilia <br className="lg:hidden block"/>• Díaz Cardillo, Eliana <br className=""/>
+            • Zani, Emiliano <br className="lg:hidden block"/>• Rodríguez Zanini <br className="lg:hidden block"/>•Hernán Eduardo
           </p>
         </div>
       </div>
@@ -45,9 +45,9 @@ export default function Profesionales() {
       <div className="border-2 border-violet_darck px-5 py-5 w-full rounded-xl md:px-16 md:py-8">
         <div className="text-violet_darck ml-0 md:-ml-10 font-gotham">
           <h4 className="font-semibold text-lg md:text-3xl">
-            Médico Residente (Oncología)
+           Médico Residente (Oncología)
           </h4>
-          <p className="text-base xl:text-2xl font-gotham font-semilight">Cuadrado, Jonathan Luis Luján</p>
+          <p className="text-base xl:text-2xl font-gotham font-semilight">• Cuadrado, Jonathan Luis Luján</p>
         </div>
       </div>
 
@@ -57,8 +57,8 @@ export default function Profesionales() {
             Hospital de día / Centro de mezcla
           </h4>
           <p className="text-base xl:text-2xl font-gotham font-semilight">
-            Ábalos, Alejandro Eliseo • Listo, Luis (Enfermeros) <br />
-            Caif, Silvia Eugenia (Farmacéutica)
+           • Ábalos, Alejandro Eliseo <br className="lg:hidden block"/>• Listo, Luis <br className="lg:hidden block"/>(Enfermeros) <br />
+           • Caif, Silvia Eugenia (Farmacéutica)
           </p>
         </div>
       </div>
@@ -68,7 +68,7 @@ export default function Profesionales() {
           <h4 className="font-semibold text-lg md:text-3xl">
             Médico Cirujano (Tórax)
           </h4>
-          <p className="text-base xl:text-2xl font-gotham font-semilight">Abdala, Jorge</p>
+          <p className="text-base xl:text-2xl font-gotham font-semilight">• Abdala, Jorge</p>
         </div>
       </div>
 
@@ -76,8 +76,8 @@ export default function Profesionales() {
         <div className="text-violet_darck ml-0 md:-ml-10 font-gotham">
           <h4 className="font-semibold text-lg md:text-3xl">Médicos Ginecólogos</h4>
           <p className="text-base xl:text-2xl font-gotham font-semilight">
-            Barroso, Rosana Natalia <br />
-            Gagliardi, Juan Manuel
+            • Barroso, Rosana Natalia <br />
+            • Gagliardi, Juan Manuel
           </p>
         </div>
       </div>
@@ -85,7 +85,7 @@ export default function Profesionales() {
       <div className="border-2 border-violet_darck px-5 py-5 w-full rounded-xl md:px-16 md:py-8">
         <div className="text-violet_darck ml-0 md:-ml-10 font-gotham">
           <h4 className="font-semibold text-lg md:text-3xl italic">Médico Mastólogo</h4>
-          <p className="text-base xl:text-2xl font-gotham font-semilight">Zanfurjo, Alejandra</p>
+          <p className="text-base xl:text-2xl font-gotham font-semilight">• Zanfurjo, Alejandra</p>
         </div>
       </div>
 
@@ -95,8 +95,8 @@ export default function Profesionales() {
             Médicos Paliativistas
           </h4>
           <p className="text-base xl:text-2xl font-gotham font-semilight">
-            Aldunate, Daniela Betina • Pedrozo, Patricia <br />
-            Boris, Cecilia • Holgado, Marcela
+            • Aldunate, Daniela Betina <br className="lg:hidden block"/>• Pedrozo, Patricia <br />
+            • Boris, Cecilia <br className="lg:hidden block"/>• Holgado, Marcela
           </p>
         </div>
       </div>
@@ -105,8 +105,8 @@ export default function Profesionales() {
         <div className="text-violet_darck ml-0 md:-ml-10 font-gotham">
           <h4 className="font-semibold text-lg md:text-3xl">Médicos Urólogos</h4>
           <p className="text-base xl:text-2xl font-gotham font-semilight">
-            Guareschi, Jonathan Exequiel <br />
-            López Fontana
+            • Guareschi, Jonathan Exequiel <br />
+            • López Fontana
           </p>
         </div>
       </div>
@@ -115,8 +115,8 @@ export default function Profesionales() {
         <div className="text-violet_darck ml-0 md:-ml-10 font-gotham">
           <h4 className="font-semibold text-xl md:text-4xl">Equipo de soporte</h4>
           <p className="text-base xl:text-2xl font-gotham font-semilight">
-            Leyton, María Paula (Nutricionista) <br />
-            Miqueo Kairuz, Agustín (Psicólogo)
+            • Leyton, María Paula (Nutricionista) <br />
+            • Miqueo Kairuz, Agustín (Psicólogo)
           </p>
         </div>
       </div>

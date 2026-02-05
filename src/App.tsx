@@ -63,7 +63,7 @@ export default function App() {
     "
   >
     <h1 className="font-bold italic font-gotham">PROFESIONALES</h1>
-    <p className="mt-2 w-full text-base lg:text-2xl font-gotham xl:text-4xl">
+    <p className="mt-2 w-full text-sm lg:text-2xl font-gotham xl:text-4xl">
       Conozca a nuestros profesionales de la salud
     </p>
   </div>
