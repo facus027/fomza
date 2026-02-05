@@ -37,7 +37,7 @@ export default function Profesionales() {
           <h4 className="font-semibold text-lg md:text-3xl"> Médicos Oncólogos</h4>
           <p className="text-base xl:text-xl font-gotham font-semilight">
             • Avendaño, María Cecilia <br className="lg:hidden block"/>• Díaz Cardillo, Eliana <br className=""/>
-            • Zani, Emiliano <br className="lg:hidden block"/>• Rodríguez Zanini <br className="lg:hidden block"/>•Hernán Eduardo
+            • Zani, Emiliano <br className="lg:hidden block"/>• Rodríguez Zanini,Hernán
           </p>
         </div>
       </div>
