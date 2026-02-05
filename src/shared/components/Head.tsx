@@ -49,7 +49,7 @@ function toWhatsAppLink(phone: string, text?: string) {
             }
     className="flex cursor-pointer">
       <img
-        className="h-16 w-auto md:h-24"
+        className="h-16 w-auto xl:h-24"
         src="/fondos/fondos-08.png"
         alt="logo_fom"
       />
@@ -68,7 +68,7 @@ function toWhatsAppLink(phone: string, text?: string) {
           md:flex-row md:text-left md:items-end md:gap-5 md:pb-0
         "
       >
-        <h3 className="font-gotham font-bold uppercase text-lg tracking-wide md:text-3xl">
+        <h3 className="font-gotham font-bold uppercase text-lg tracking-wide lg:text-base xl:text-3xl">
           TURNOS WHATSAPP
         </h3>
         <p className="font-gotham font-light text-sm tracking-wide md:text-lg md:mt-2">
@@ -83,7 +83,7 @@ function toWhatsAppLink(phone: string, text?: string) {
         "
       >
         <div className="flex flex-col items-center gap-2 md:flex-row md:items-center md:gap-0.5">
-          <h3 className="font-gotham font-semibold text-lg italic md:text-2xl">
+          <h3 className="font-gotham font-semibold text-lg italic lg:text-base xl:text-2xl">
             Consultorios:
           </h3>
 
@@ -111,7 +111,7 @@ function toWhatsAppLink(phone: string, text?: string) {
         </div>
 
         <div className="flex flex-col items-center gap-2 md:flex-row md:items-center md:gap-0.5">
-          <h3 className="font-gotham font-semibold text-lg italic md:text-xl">
+          <h3 className="font-gotham font-semibold text-lg italic lg:text-base xl:text-xl">
             Quimioterapias:
           </h3>
 

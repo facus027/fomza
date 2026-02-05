@@ -63,7 +63,7 @@ export default function App() {
     "
   >
     <h1 className="font-bold italic font-gotham">PROFESIONALES</h1>
-    <p className="mt-2 w-full text-base font-gotham md:text-4xl">
+    <p className="mt-2 w-full text-base lg:text-2xl font-gotham xl:text-4xl">
       Conozca a nuestros profesionales de la salud
     </p>
   </div>
@@ -152,7 +152,7 @@ export default function App() {
     </div>
 
     {/* INFO */}
-    <div className="flex w-full flex-col justify-center gap-4 text-base font-gotham text-violet_darck md:ml-auto md:w-1/3 md:gap-5 md:text-2xl">
+    <div className="flex w-full flex-col justify-center gap-4 text-base font-gotham text-violet_darck md:ml-auto md:w-1/3 md:gap-5  xl:text-2xl">
       <div>
         <h4 className="font-bold">Ubicación:</h4>
         <p>San Juan 227 – Ciudad – Mendoza</p>

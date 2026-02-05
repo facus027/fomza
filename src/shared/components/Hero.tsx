@@ -8,7 +8,7 @@ export default function Hero() {
     relative w-full min-h-[520px]
     md:min-h-[650px]
     bg-[url('/fondos/fondos-01.png')]
-    bg-cover bg-center bg-no-repeat mt-52 md:mt-48 
+    bg-cover bg-center bg-no-repeat mt-52 lg:mt-32 xl:mt-48 
   "
 >
   <div className="absolute inset-0" />
@@ -17,7 +17,7 @@ export default function Hero() {
     className="
       relative z-10 px-6 py-12 text-white
       flex flex-col gap-6 justify-center items-center text-center
-      md:px-6 md:py-20 md:gap-16 md:items-start md:text-left  md:ml-44 md:pt-48 
+      xl:px-6 lg:px-2 xl:py-20 lg:mt-8 md:gap-16 md:items-start md:text-left lg:ml-28 xl:ml-44 xl:pt-48 lg:pt-28 
       
     "
   >

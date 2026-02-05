@@ -33,7 +33,7 @@ function toWhatsAppLink(phone: string, text?: string) {
     "
   >
     {/* Título */}
-    <h2 className="text-2xl font-bold font-gotham italic uppercase tracking-widest md:text-4xl">
+    <h2 className="text-2xl font-bold font-gotham italic uppercase tracking-widest lg:text-3xl xl:text-4xl">
       Turnos WhatsApp
     </h2>
 
@@ -41,7 +41,7 @@ function toWhatsAppLink(phone: string, text?: string) {
     <div className="mx-auto my-7 h-px w-4/5 bg-white/70 md:w-3/5" />
 
     {/* Horarios */}
-    <p className="text-sm font-light md:text-3xl">
+    <p className="text-sm font-light lg:text-2xl xl:text-3xl">
       Lunes a Viernes de 9:00 hs. a 16:00 hs.
     </p>
 
@@ -53,12 +53,12 @@ function toWhatsAppLink(phone: string, text?: string) {
       "
     >
       {/* Consultorios */}
-      <div className="flex flex-col items-center gap-3 md:flex-row md:gap-2">
-        <h3 className="font-gotham font-semibold text-lg italic md:text-3xl">
+      <div className="flex flex-col items-center gap-3 xl:flex-row md:gap-2 text-xl">
+        <h3 className="font-gotham font-semibold text-lg italic lg:text-2xl xl:text-3xl">
           Consultorios:
         </h3>
 
-        <div className="flex flex-wrap items-center justify-center gap-2">
+        <div className="flex flex-wrap flex-row items-center justify-center gap-2">
           <a
             href={toWhatsAppLink("2617206340", "Hola! Quiero solicitar un turno.")}
             target="_blank"
@@ -82,8 +82,8 @@ function toWhatsAppLink(phone: string, text?: string) {
       </div>
 
       {/* Quimioterapias */}
-      <div className="flex flex-col items-center gap-3 md:flex-row md:gap-2">
-        <h3 className="font-gotham font-semibold text-lg italic md:text-3xl">
+      <div className="flex flex-col items-center gap-3 xl:flex-row md:gap-2 text-base">
+        <h3 className="font-gotham font-semibold text-lg italic lg:text-2xl xl:text-3xl">
           Quimioterapias:
         </h3>
 
@@ -106,7 +106,7 @@ function toWhatsAppLink(phone: string, text?: string) {
           inline-block rounded-full bg-violet_light
           mt-6 px-6 py-3 text-lg font-semibold uppercase tracking-wide text-white
           transition hover:bg-[#c79ae3]
-          md:mt-10 md:px-8 md:py-6 md:text-2xl
+          md:mt-10 md:px-8 md:py-6 lg:text-xl xl:text-2xl
         "
       >
         Solicitar turno
